@@ -18,12 +18,12 @@ class MyApp extends StatelessWidget {
         // errorColor: Colors.red,
         fontFamily: 'Quicksand',
         textTheme: ThemeData.light().textTheme.copyWith(
-              subtitle1: TextStyle(
+              titleMedium: TextStyle(
                 fontFamily: 'OpenSans',
                 fontWeight: FontWeight.bold,
                 fontSize: 18,
               ),
-              button: TextStyle(color: Colors.white),
+              labelLarge: TextStyle(color: Colors.white),
             ),
         appBarTheme: AppBarTheme(
           titleTextStyle: TextStyle(
